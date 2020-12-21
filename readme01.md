@@ -25,16 +25,14 @@ LaTex 数学公式
 交换律 $$ a+b=b+a$$ 如 $$1+2=2+1$$
 - 中括号
 - 多行公式
-    ```
-    Plot[Sin[x]]
-    ```
  二次函数中最重要的一个公式
 ========
+
     $$ y = ax^2 + bx + c     (a ≠ 0)$$
     $$ y = a(x^2 +\frac{b}{a}x)+c $$
     $$ y = a(x^2 +2\frac{b}{2a}x+  (\frac{b}{2a)})^2 - (\frac{b}{2a})^2) + c $$
-    $$ y = a(x^2 + 2\frac{b}{2a}x + (\frac{b}{2a})^2 -\frac{b^2}{4a^2}) + c            $$
-    $$ y = a(x+\frac{b}{2a})^2 + c -\frac{b^2}{4a}                                 $$
-    $$ y = a(x+\frac{b}{2a})^2 + \frac{4ac-b^2}{4a}                                            $$   
+    $$ y = a(x^2 + 2\frac{b}{2a}x + (\frac{b}{2a})^2 -\frac{b^2}{4a^2}) + c $$
+    $$ y = a(x+\frac{b}{2a})^2 + c -\frac{b^2}{4a} $$
+    $$ y = a(x+\frac{b}{2a})^2 + \frac{4ac-b^2}{4a} $$   
 
 
