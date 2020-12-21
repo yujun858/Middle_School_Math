@@ -32,7 +32,7 @@ LaTex 数学公式
     $$ y = a(x^2 +\frac{b}{a}x+\frac{c}{a} ) $$
     $$ y = a(x^2 +2\frac{b}{2a}x+  (\frac{b}{2a)})^2 - (\frac{b}{2a})^2 + \frac{c}{a})      ①$$
     $$ y = a(x^2 + 2\frac{b}{2a}x + (\frac{b}{2a})^2 -\frac{b^2}{4a^2}+\frac{c}{a})            ②$$
-    $$ y = a(x+\frac{b}{2a})^2 + \frac{c} -\frac{b^2}{4a}                                 ③$$
-    $$ y = a(x+\frac{b}{2a})^2 + \frac{4ac-b^2｝{4a}                                            ④$$   
+    $$ y = a(x+\frac{b}{2a})^2 + c -\frac{b^2}{4a}                                 ③$$
+    $$ y = a(x+\frac{b}{2a})^2 + \frac{4ac-b^2}{4a}                                            ④$$   
 
 
