@@ -9,6 +9,12 @@ hello world
 LaTex 数学公式
 - 行内公式：
     - 美元符号 $a+b=b+a$ $1+2=2+1=3$
-    - 小括号 \(a+b=b+a\) \(2+2=2+1=3\)
-    - math环境 \begin{math}a+b=b+a\end{math}
-
+- 上下标，上标 ^，下标 _
+    - 美元符号 $3x^2 -x +2 = 0 $
+    - 美元符号 $3x^{20}-x+2 = 0 $
+    - $3x^{3x^{20}-x+2}-x+2 =0 $
+    - $a_0, a_1,a_2,a_{100}$
+- 希腊字母
+    - $\alpha$ $\beta$ $\gamma$ $\epsilon$ $\pi$ $\omega$ $\Gamma$ $\Delta$ $\Theta$ $\Pi$ $\Omega$
+- 数学函数
+    - 
