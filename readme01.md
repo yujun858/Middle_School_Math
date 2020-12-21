@@ -28,7 +28,8 @@ LaTex 数学公式
     ```
     Plot[Sin[x]]
     ```
-    $$ y = ax^2 + bx + c (a ≠ 0)$$
-    $$ y = a(x^2 +\frac{b}{a}+\frac{c}{a} )
+    $$ y = ax^2 + bx + c     (a ≠ 0)$$
+    $$ y = a(x^2 +\frac{b}{a}+\frac{c}{a} ) $$
+    $$ y = a\{x^2 +2\frac{b}{2a}+(\frac{b}{2a)}^2-(\frac{b}{2a})^2 + \frac{c}{a}}$$
 
 
