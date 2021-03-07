@@ -1,0 +1,888 @@
+<html>
+  <head>
+	  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>i5ting_ztree_toc:2次</title>
+		<link href="toc/style/github-bf51422f4bb36427d391e4b75a1daa083c2d840e.css" media="all" rel="stylesheet" type="text/css"/>
+		<link href="toc/style/github2-d731afd4f624c99a4b19ad69f3083cd6d02b81d5.css" media="all" rel="stylesheet" type="text/css"/>
+		<link href="toc/css/zTreeStyle/zTreeStyle.css" media="all" rel="stylesheet" type="text/css"/>
+	  <style>
+		pre {
+		    counter-reset: line-numbering;
+		    border: solid 1px #d9d9d9;
+		    border-radius: 0;
+		    background: #fff;
+		    padding: 0;
+		    line-height: 23px;
+		    margin-bottom: 30px;
+		    white-space: pre;
+		    overflow-x: auto;
+		    word-break: inherit;
+		    word-wrap: inherit;
+		}
+
+		pre a::before {
+		  content: counter(line-numbering);
+		  counter-increment: line-numbering;
+		  padding-right: 1em; /* space after numbers */
+		  width: 25px;
+		  text-align: right;
+		  opacity: 0.7;
+		  display: inline-block;
+		  color: #aaa;
+		  background: #eee;
+		  margin-right: 16px;
+		  padding: 2px 10px;
+		  font-size: 13px;
+		  -webkit-touch-callout: none;
+		  -webkit-user-select: none;
+		  -khtml-user-select: none;
+		  -moz-user-select: none;
+		  -ms-user-select: none;
+		  user-select: none;
+		}
+
+		pre a:first-of-type::before {
+		  padding-top: 10px;
+		}
+
+		pre a:last-of-type::before {
+		  padding-bottom: 10px;
+		}
+
+		pre a:only-of-type::before {
+		  padding: 10px;
+		}
+
+		.highlight { background-color: #ffffcc } /* RIGHT */
+		</style>
+  </head>
+  <body>
+	  <div>
+				<div style='width:25%;'>
+						<ul id="tree" class="ztree" style='width:100%'>
+
+						</ul>
+				</div>
+        <div id='readme' style='width:70%;margin-left:20%;'>
+          	<article class='markdown-body'>
+            	<h1 id="-">配方法解题</h1>
+<h2 id="-">完全平方数与配方法</h2>
+<p>原理： 把一个式子或者一个式子的部分改写成完全平方式或者几个完全平方式的和形式：</p>
+<ul>
+<li>拼凑</li>
+<li>拆</li>
+<li>添</li>
+</ul>
+<p>1 $$a^2±2ab+b^2=(a±b)^2$$
+2 $$a^2+b^2+c^2+2ab+2bc+2ac=(a+b+c)^2$$
+3 $$a^2+b^2+c^2±ab±bc±ca = \frac{1}{2}((a±b)^2+(b±c)^2+(c±a)^2)$$
+4 $$ax^2+bx+c=a (x+\frac{b}{2a})^2 + \frac{4ac-b^2}{4a} $$</p>
+<h2 id="-">推导过程</h2>
+<p> $$ y = ax^2 + bx + c     (a ≠ 0)$$
+ $$ y = a(x^2 +\frac{b}{a}x)+c $$
+ $$ y = a(x^2 +2\frac{b}{2a}x+  (\frac{b}{2a)})^2 - (\frac{b}{2a})^2) + c $$
+ $$ y = a(x^2 + 2\frac{b}{2a}x + (\frac{b}{2a})^2 -\frac{b^2}{4a^2}) + c $$
+ $$ y = a(x+\frac{b}{2a})^2 + c -\frac{b^2}{4a}                $$
+ $$ y = a(x+\frac{b}{2a})^2 + \frac{4ac-b^2}{4a}$$   </p>
+<h2 id="-">典型例题：</h2>
+<ol>
+<li>已知$m^2+n^2+mn+m-n+1=0$,则$\frac{1}{m}+\frac{1}{n}$的值等于()<br>解题：求出m,n价值；通过配方法$(m+???)^2 + (n+???)^2 +(m+n)^2=0$,灵活运用完全平方公式和平方的非负性解决本题关键<br>解答：<br>$$m^2+n^2+mn+m-n+1=0$$ 
+变形得 
+$$2m^2+2n^2+2mn+2m-2n+2=0$$
+$$m^2+n^2+2mn +m^2+2m+1 +n^2-2n+1=0$$ 
+$$(m+n)^2+(m+1)^2+(n-1)^2 =0$$
+得：<br>$$m=-1     n=1$$</li>
+</ol>
+<hr>
+<h2 id="-">练习:</h2>
+<p>$2x^2+4xy+5y^2-4x+2y-5$可以取得最小值为<u>             </u>  </p>
+<hr>
+<ol start="2">
+<li>若$x-1=\frac{y+1}{2}=\frac{z-22}{3}$,则$x^2+y^2+z^2$可取得的最小值为(     )<br>解题：设<br>$$x-1=\frac{y+1}{2}=\frac{z-2}{3}=k$$<br>$$x=1+k y = 2k-1 z=3k+2$$
+$$x^2+y^2+z^2= (1+k)^2+(2k-1)^2+(3k+2)^2$$
+$$=1+2k+k^2+4k^2-4K+1+9k^2+12k+4$$
+$$= 14K^2-10K+6=14(k^2-\frac{10}{14}x+\frac{5}{14}^2)+\frac{59}{14}$$
+$$ 原式＞= \frac{59}{14}$$</li>
+</ol>
+<hr>
+<p>3.已知实数$a,b,x,y$满足$ax+by=3,ay-bx=5$，则$(a^2+b^2)(x^2+y^2)$的值为()<br>解:    </p>
+<p>$$(ax+by)^2 =9$$  </p>
+<p>$$(ax)^2+2abxy+(by)^2 = 9$$   ①  </p>
+<p>$$(ay-bx)^2 =25$$</p>
+<p>$$(ay)^2-2abxy +(bx)^2 =25$$  ②  </p>
+<p>$$①+②=$$</p>
+<p>$$(a^2+b^2)(x^2+y^2)=31$$  </p>
+<p>原式$$=(ax)^2+(ay)^2+(bx)^2+(by)^2=31   $$  </p>
+<h1 id="-">二次函数</h1>
+<h2 id="-">习题</h2>
+<ul>
+<li>某高中学校为高一新生设计的学生单人桌子的抽屉部分是长方形，抽屉底面周长为180cm,高为20cm.请通过计算说明：当底面的宽为x(cm)为何值时，抽屉的体积$y(cm)^3$最大？最大为多少？（材质及厚度等忽略不 <br /></li>
+</ul>
+<p>解:
+根据题意,得
+$$y= 20x(\frac{180}{2}-x)=-20x^2 +1800x = =-20(x^2-90x)=-20(x^2-90x+45^2)=-20(x-45)^2+20×45^2=-20(x-45)^2 +40500 $$
+因为-20&lt;0，所以当$x=45$时，函数有最大值，y最大值=40500，即当底面得款为45cm时，抽屉得体积最大，最大为$40500cm^3$.
+练习（去括号) $$ (a±b)^2 = $$
+练习（配方）二次函数  $y=ax^2+bx+c(a≠0）$ 改写成 $ y =a(x+m)^2 +n $形式  </p>
+<p>$$ y = x^2 + 2x $$
+$$ y = x^2 +2x +1 -1 = (x+1)^2 -1$$
+$$ y = x^2 +2000x +1000 = x^2+2000x+1000^2 -1000^2 +1000= (x+1000)^2 +1000000-1000$$
+$$ y = -\frac{1}{2}x^2 -2x +3 =-\frac{1}{2}(x^2+4x)+3=-\frac{1}{2}(x^2+4x+4)+2+3=-\frac{1}{2}(x+2)^2+5$$
+$$ y = \frac{2}{3}x^2 - \frac{\sqrt{2}}{3}x + 1 =\frac{2}{3}(x^2-\frac{\sqrt(2)}{2})+1=\frac{2}{3}(x^2-\frac{\sqrt(2)}{2}+\frac{\sqrt(2)}{4}) -\frac{1}{8}+1$$
+$$ =\frac{2}{3}(x+\frac{\sqrt(2)}{4})^2 +\frac{7}{8}$$</p>
+<hr>
+<p>课本p31.5<br>已知一个二次函数得图像与x轴得交点为$(-2,0),(4,0)$,且顶点在函数$y=2x$得图像上，求这个二次函数的表达式：<br>解：  </p>
+<p>根据题意得二次函数：
+$$ y = a(x+2)(x-4)$$
+$$ y = a(x^2-2x-8)$$
+$$ y = a(x-1)^2 -9a $$
+因为函数顶点$(1,-9a)$,由于函数顶点在$y=2x$图形上<br>所以$$ -9a = 2  $$ 
+$$a =- \frac{2}{9}$$
+函数得表达式： $$ y = -\frac{2}{9}(x-1)^2 +2 $$
+$$ y = -\frac{2}{9}x^2 + \frac{4}{9}x + \frac{16}{9} $$</p>
+<h2 id="-">二次函数公式推导</h2>
+<ul>
+<li><p>形如$y=ax^2+bx+c$(其中$a,b,c$是常数，$a≠0$)的函数叫做二次函数，自变量的取值范围是实数.
+<br /></p>
+</li>
+<li><p>二次函数$y=ax^2(a≠0)$的图象是抛物线,它关于y轴对称，顶点是$(0,0)$.当$a&gt;0$时，抛物线的开口向上，顶点是抛物线的最低点;当$a&lt;0$时，抛物线的开口向下，顶点是抛物线上的最高点.
+<br /></p>
+</li>
+<li><p>函数$y=a(x-m)^2 (a≠0)$的图象可由函数$y=ax^2(a≠0)$的图象向右(当$m&gt;0$)或向左(当$m&lt;0$)平移m个单位得到.
+<br /></p>
+</li>
+<li><p>函数$y=a(x-m)^2+k (a ≠0)$的图象可由函数$y=ax^2$的图象先向右(当$m&gt;0$)或向左(当$m&lt;0$)平移m个单位，再向上（当$k&gt;0$)或向下（当$k&lt;0$)平移$m$个单位得到，顶点是$(m,k)$,对称轴是直线$x=m$.
+<br/></p>
+</li>
+<li>二次函数$y=ax^2+bx+c(a≠0)$的图象是一条抛物线，它的对称轴是直线$x=-\frac{b}{2a}$,顶点坐标$(-\frac{b}{2a},\frac{4ac-b^2}{4a})$,当$a&gt;0$时，抛物线的开口向上，顶点是抛物线上的最低点；当$a&lt;0$时，抛物线的开口向下，顶点是抛物线的最高点。
+</br>-</li>
+<li>对于二次函数$y=ax^2+bx+c(a≠0)$,若$a&gt;0$,则当$x≥-\frac{b}{2a}$时，y随着x的增大而增大，当$x≤-\frac{b}{2a}$,y随着x的增大而减少，当$x=-\frac{b}{2a}$,y的最小值=$\frac{4ac-b^2}{4a}$;若$a&lt;0$,则当$x≤-\frac{b}{2a}$时，y随着x的增大而增大，当$x≥-\frac{b}{2a}$时，y随着x的增大而减少，当$x=-frac{b}{2a}$时，y最大值=$\frac{4ac-b^2}{4a}$.
+</br></li>
+</ul>
+<h2 id="-">本章综合检测：</h2>
+<ol>
+<li>填空题
+若二次函数$ y = x^2 -6x +c$ 的图象的顶点与原点的距离为5，则c =<br>解：
+根据题意得 
+$$y= x^2 -6x +c = (x^2-6c+9)-9+c=(x-3)^2 -9+c$$<br>二次函数得顶点为$(3,c-9)$
+</br>
+根据勾股定理，顶点到原点得距离为：
+$$ \sqrt{3^2+(c-9)^2} = 5 $$
+化简得： $$c^2 -18c+65 =0 $$
+$$(c-13)(c-5)=0$$
+解得： $c=13 或 c=5$
+</br></li>
+<li><p>已知点$A(x1,y1),B(x2,y2)$在二次函数$y=(x-1)^2+1$的图象上，若$x1&gt;x2&gt;1$,则$y1   y2$(填＞ ＝ 小于)。
+解：根据二次函数图象性质:   </p>
+</li>
+<li><p>二次函数$y = kx^2 -6x -6$ 图象与x轴有交点，则k的取值范围<br>解法一:根据题意得 
+$$ y= kx^2 -6x -6 = k(x^2-\frac{6}{k}x) -6 = k(x^2-\frac{6}{k}x +\frac{3}{k}^2)-6 - \frac{9}{k} $$
+$$ = k(x-\frac{3}{k})^2 - 6 -\frac{9}{k}$$
+函数的顶点为$$(\frac{3}{k},-6-\frac{9}{k})$$
+因为函数与x轴有交点，则<br>情况一： $$k &gt;0 $$
+$$-\frac{9}{k}-6 ≤0 $$
+解得$$k≥- \frac{3}{2}  $$
+根据条件$k&gt;0$有交点<br>情况二： $$ k&lt;0$$<br>$$- \frac{9}{k}-6 ≥0$$ 
+解得：$$k≥-\frac{3}{2}$$ 根据条件$ -\frac{3}{2}≤k&lt;0$有交点.<br>综上所述： k的取值范围: $k≥-\frac{3}{2}且k≠0$<br>解法二：
+因为函数与x轴有交点则:
+$$ kx^2-6x-6=0$$方程有解；
+$$\delta = (-6)^2-4k(-6) ≥0 $$
+$$ k&gt;=-\frac{3}{2} 且k ≠0 $$</p>
+</li>
+</ol>
+<h2 id="-">基础（教材习题）</h2>
+<ul>
+<li>1.1 二次函数定义(知道三个坐标点通过待定系数法求得二次函数表达式)。
+p6. 作业题</li>
+<li>下列函数中，哪些是二次函数？</br>
+(1) $y = x^2$ √</br> 
+(2) $y = 2x-3$</br>
+(3)$y = x^2 -\sqrt(2)x +1$√</br>
+(4)$y=(x-5)^2 - x^2$</br>
+(5) $y =(x-1)(x+3)$√</br></li>
+</ul>
+<hr>
+<ol start="2">
+<li>写出下列二次函数的二次项系数、一次项系数和常数项.</br><table border='1'>
+ <tr>
+     <th>二次函数</th>
+     <th>二次项系数</th>
+     <th>一次项系数</th>
+     <th>常数项</th>
+ </tr>
+ <tr>
+     <td>$y=x^2+2x-1$</td>
+     <td>1</td>
+     <td>2</td>
+     <td>-1</td>
+ </tr>
+ <tr>
+     <td>$y=x^2$</td>
+     <td>1</td>
+     <td>0</td>
+     <td>0</td>
+ </tr>
+ <tr>
+     <td>$y=-3x^2+2$</td>
+     <td>-3</td>
+     <td>0</td>
+     <td>2</td>
+ </tr>
+ <tr>
+     <td>$y=\frac{1}{3}(x-5)^2-4$</td>
+     <td>$\frac{1}{3}$ </td>
+     <td>$-\frac{10}{3}$</td>
+     <td>$\frac{13}{3}$</td>
+ </tr>
+</table>
+
+</li>
+</ol>
+<hr>
+<ol start="3">
+<li>从半径为4cm的圆中挖去一表半径为x(cm)的同心圆,剩下的圆环的面积为y($cm^2$),求y关于x的函数表达式和x的取值范围，并填写下表.</br>
+</br>
+<table>
+<tr>
+ <th>$x(cm)$</th>
+ <th>$0.5$</th>
+ <th>$1$</th>
+ <th>$1.5$</th>
+ <th>$2$</th>
+ <th>$3$</th>
+ <th>$3.5$</th>
+</tr>
+<tr>
+ <td>$y(cm^2)$</td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td></td>
+</tr>
+</table>
+解：</br>
+$$ y =16 \pi  - \pi x^2$$
+自变量$x$的取值范围x&lt;0&lt;4
+</br></li>
+</ol>
+<table>
+<tr>
+    <th>$x(cm)$</th>
+    <th>$0.5$</th>
+    <th>$1$</th>
+    <th>$1.5$</th>
+    <th>$2$</th>
+    <th>$3$</th>
+    <th>$3.5$</th>
+</tr>
+<tr>
+    <td>$y(cm^2)$</td>
+    <td>$\frac{63}{4}\pi$</td>
+    <td>$15\pi$</td>
+    <td>$\frac{55\pi}{4}$</td>
+    <td>$12\pi$</td>
+    <td>$7\pi$</td>
+    <td>$\frac{15}{4}\pi$</td>
+</tr>
+</table>
+
+<hr>
+<ol start="4">
+<li><p>已知二次函数 $y=ax^2+4x+c$,当$x=-2$时，函数值是-1，当$x=1$时，函数值是5，求这个二次函数的表达式.</br>
+</br>
+解：(利用待定系数法求解函数表达式)</br>
+把$x=-2,y=-1;x=1,y=5$代入$y=ax^2+4x+c$中，得方程组</br>
+$$
+\begin{cases}
+4a-8+c=-1\
+a+4+c=5
+\end{cases}
+$$
+解得：
+$$
+\begin{cases}
+a=2\
+c=-1
+\end{cases}
+$$
+所以所求二次函数的表达式是$$y=2x^2+4x-1$$</p>
+<hr>
+<ol start="5">
+<li>某工厂1月份产值为200万，平均每月产值的增长率为x,求该工厂第一季度的产值y关于x的函数表达式.
+</br>
+解：(增长率的概念)</br>
+$$y=200+200(1+x)+200(1+x)^2=200x^2+600x+600$$</li>
+</ol>
+<hr>
+<ol start="6">
+<li>已知二次函数$y= ax^2+bx+c$,当$x=1$时，$y=2$;当$x=-2$时，$y=-7$,当$x=-1$时，$y=0$,求这个二次函数的表达式。</br>
+解：(三元一次方程组，待定系数法，这题目与题目4区别，三个未知数，三个三元一次方程，求得唯一解)</br>
+把$x=1,y=2;x=-2,y=-7;x=-1,y=0$分别代入$y=ax^2+bx+c$中</li>
+</ol>
+<p>$$
+\begin{cases}
+a+b+c=2 \
+4a-2b+c=-7\
+a-b+c=0
+\end{cases}
+$$
+解得：
+$$
+\begin{cases}
+a=-2\
+b=1\
+c=3
+\end{cases}
+$$
+所以这个二次函数得表达式是:$$y=-2x^2+x+3$$</p>
+</li>
+</ol>
+<h1 id="-">开学第一次考试数学</h1>
+<h2 id="-19-">开学考试19题：</h2>
+<p>某校八年级的学生在一次年级会议上，围绕“春游去哪儿”的主题大讨论。并事先对该年级<b>320</b>名学生进行问卷调查；统计如下表所示</p>
+<p><table></p>
+<tr>
+    <th>选项</th>
+    <th>A</th>
+    <th>B</th>
+    <th>C</th>
+    <th>D</th>
+</tr>
+<tr>
+    <td>选择地点</td>
+    <td>旅游码头</td>
+    <td>湖滨公园</td>
+    <td>水下古城</td>
+    <td>珍珠半岛</td>
+</tr>
+
+<p><tr>
+    <td></td>
+    <td>180</td>
+    <td>m</td>
+    <td>n</td>
+    <td>40</td>
+</tr>
+</table>
+请解答下列问题：</p>
+<h2 id="-1-m-n-n-">(1)求m关于n的函数表达式，并写出n的取值范围？</h2>
+<ul>
+<li>知识点:y关于x的函数表达式：函数：简单讲两个变量之间关系；m关于n函数，n是自变量，m是因变量；特别注意：自变量取值范围。</li>
+<li>通俗说：比如用米煮饭，一杯米煮半斤饭，两杯米煮一斤饭，米是自变量，饭是因变量；多少米煮多少饭对应关系是函数；对应关系可以用函数表达式表示。一千斤米肯定没有电饭锅能煮，多少米肯定有限制，自变量是有取值范围的，哪怕是从负无穷到正无穷，也是一个范围。
+<strong>记住：函数变量之间对应关系。</strong></li>
+</ul>
+<hr>
+<p>考察函数定义：注意点：自变量取值范围。</p>
+<p><strong>解</strong>：由题意得：（☆）</p>
+<p>因为$$ 180+m+n+40=320$$
+所以：$$m=100-n(0≤n≤100,且n为整数)$$</p>
+<p>(2)如果A，B选项的学生总人数不少于C，D选项总人数的3倍，那么最多有多少名学生选择“水下古城”？</p>
+<p><strong>解</strong>：由题意得（☆☆）
+$$∵(180+m)≥3(n+40)$$
+$$∵m=100-n$$（为什么m用n代替而不是n用m代替，题意求选择水下古城人数，保留n)
+$$(180+100-n)≥3n+120$$
+$$4n≤160$$
+$$解得:n≤40$$
+所以最多又40人选择水下古城</p>
+<p>（3）通过讨论：超过$\frac{2}{3}\$D选项改变想法，其中半数改为选择旅游码头；另外半数选择湖滨公园，这样使得选择A，C选项学生总人数恰好选择B，D选项的学生总数的3倍，求此时n的最大值</p>
+<p><strong>解</strong>：设x选择D改变想法:<br>$\color{red}{问题出在哪里：依然保留小学的学习习惯，看到题目，提笔就做，完全没有思考过程，这样很多隐藏知识点没有调用，导致做题失误。}$<br>$$ 40\ast\frac{2}{3}＜x＜40$$
+∵改变想法后A,C选项的学生总数恰好是选择B，D选项人数的3倍。
+$$∴180+\frac{1}{2}x+n=3\ast(m+\frac{1}{2}x+40-x)$$
+$$∵m=100-n$$
+$$∴ 40＜n ＜\frac{140}{3}$$</p>
+<p>此时n最大值46</p>
+<h2 id="-21-">开学考试21题</h2>
+<p>已知$$(a+1)(b+2)≥(a+1)(c+1)$$,其a,b,c是常数, <strong>且c≠1</strong></p>
+<p>(1)当b=-2，c=-3时，求a的取值范围；
+<strong>解:</strong><br>根据题意得：将b=-2,c=-3代入:<br>$$(a+1)*-2≤0$$
+$$得：a≥-1$$</p>
+<h1 id="-">开学第一次考试英语</h1>
+<h2 id="-">英语阅读理解</h2>
+<p><strong>Summer Vacation Kids &amp; Teens</strong>  </p>
+<p>Children need never be bored again. Our Summer Vacation Kids &amp; Teens course will keep them excited all the summer. The kids can enjoy themselves and make new friends while they are learning the language. With three hours&#39; language learning per day,Summer Vacation Kids &amp; Teens will improve the kid&#39;s language skills.</p>
+<p>* 5days classroom-based </p>
+<p>* 2 short tours</p>
+<p>* 1 day trip</p>
+<p>* Homestay with local families</p>
+<p><strong>Evening Class</strong>
+Evening classes are good for students who want to keep their English without taking part in a full-time course. Two weekly classes offer perfect chance to improve reading,writing,listening,speaking and grammar.<br>We provide tea,coffee,biscuit and welcome environment to make leaning in the evening a pleasure.</p>
+<ul>
+<li>Monday and Wednesday    6:00pm --8:pm: advanced level</li>
+<li>Tuesday and Thrusday 6:00pm--8:00pm:Intermediate level</li>
+</ul>
+<h2 id="-">完型填空</h2>
+<p>It was a lovely spring afternoon. My classmates and I were playing happily on the playground when I let out,&quot;Ow!Ow! something in my show is biting me.&quot;<br>Everyone was shocked by the cry. They took me into a classroom and were about to take off my <strong><em>shoe</em></strong>.&quot;Which foot is it?&quot;one asked.&quot;Let us have a loo.&quot;<br>Suddenly, I remembered the hoes in <strong><em>my</em></strong> socks. My famuly was very poor during those years. I Wore welfare socks, which cost only a little,but those <strong><em>cheap</em></strong> welfare socks didn&#39;t last long.They soon had <strong><em>holes</em></strong> at the bootom.<br>I refused to take off my shoes. I <strong><em>couldn&#39;t</em></strong> stand others seeing the holes in my sock. I tried to hold back my tears. Yet,each time the thing <strong><em>in</em></strong> my shoe bit me, tears raced down my face.<br>My teacher,Miss Diane,hurried into the <strong><strong>classroom</strong></strong>.&quot;What&#39;s wrong?&quot; she asked.
+&quot;Something is biting her right foot,<strong><em>but</em></strong>she doesn&#39;t let us take off her shoe.&quot; one of my classmates answered.<br>Miss Diane lived nvext door to me. She <strong><em>knew</em></strong> everything about my family. She put both hands on my shaking shoulders and <strong><em>looked into</em></strong> my painful and hopeless eyes.<br>&quot;Oh,yes,it must be a sock-eating ant,&quot; she said, as if she had <strong><em>already</em></strong> seen the thing inside the shoe.&quot;I had a bite from one of those ants,By the time I got my shoe off, it had <strong><em>eaten</em></strong> almost the whole bottom off my sock.&quot; My classmates nodeed while they were listening to the teacher <strong><em>carefylly</em></strong>, although they all looked a little puzzled.<br>Miss Diane took off my right shoe and sock and shook them over the dustin. Two red ants <strong><em> fell into </em></strong> it.<br>&quot;Just what I though. The ants have eaten part of her sock.&quot; When she stroked alcohol cottom ball on the bites,she added, &#39;You are such a <strong><em>brave</em></strong> girl to take som many bites.&#39;<br>The alcohol felt cool on the bites and a little girl&#39;s pride was saved by the &quot;sock-eating ant&quot; story.</p>
+<h1 id="-">七（上）单词</h1>
+<h2 id="starter-unit1">Starter Unit1</h2>
+<hr>
+<ol>
+<li>G__________ adj. 好的</li>
+<li>M__________ n. 早晨；上午</li>
+<li>G__________ 早上好!</li>
+<li>H__________(用于打招呼)嗨，喂</li>
+<li>h__________ interj. 你好；喂</li>
+<li>a__________ n.上午</li>
+<li>G__________下午好</li>
+<li>e__________n.晚上傍晚</li>
+<li>G__________!晚上好!</li>
+<li>h__________怎样；如何</li>
+<li>a__________v. 是</li>
+<li>y__________pron. 你，你们</li>
+<li>H__________你好吗？</li>
+<li>I pron. 我</li>
+<li>a__________ v.是</li>
+<li>f__________adj.健康的；美好的</li>
+<li>t__________interj.&amp;n. 感谢</li>
+<li>OK interj.&amp;adv. 好；可以</li>
+<li>HB铅笔芯）硬黑</li>
+<li>CD 光盘；激光唱片</li>
+<li>BBC 英国广播公司<h2 id="starter-unit2">Starter Unit2</h2>
+</li>
+</ol>
+<hr>
+<ol start="22">
+<li>w__________ pron.&amp;adj. 什么</li>
+<li>i__________v.是</li>
+<li>t__________pron. 这；这个</li>
+<li>i__________prep. (表示使用语言，材料等)</li>
+<li>E__________ n. 英语 adj. 英格兰的；英语的；</li>
+<li>i__________ 用英语</li>
+<li>m__________n.地图</li>
+<li>c__________n.杯子</li>
+<li>r__________n.尺，直尺</li>
+<li>p__________n.笔、钢笔</li>
+<li>o__________n.橙子</li>
+<li>j__________n.夹克衫，短上衣</li>
+<li>k__________n.钥匙</li>
+<li>q__________n.被子；床罩</li>
+<li>i__________pron.它</li>
+<li>a art. （用于单数可数名词前，表示未曾提到的）一（人、事、物）</li>
+<li>t__________ pron 那；那个</li>
+<li>s__________v .用字母拼；拼写</li>
+<li>p__________interj.(用于客气请求或吩咐)请</li>
+<li>N__________ (美国)全国篮球协会</li>
+<li>P停车场，停车位</li>
+<li>Kg千克；公斤<h2 id="starter-unit-3">Starter Unit 3</h2>
+</li>
+</ol>
+<hr>
+<ol start="44">
+<li>c__________n.=(colour)颜色</li>
+<li>r__________n.&amp;adj.红色(的)</li>
+<li>y__________n.&amp;adj. 黄色(的)</li>
+<li>g__________n.&amp;adj. 绿色的）</li>
+<li>b__________n.&amp;adj.c蓝色(的)</li>
+<li>b__________n.&amp;adj.黑色（的）</li>
+<li>w__________n.&amp;adj.白色（的）</li>
+<li>p__________n.&amp;adj.紫色(的)</li>
+<li>b__________n.&amp;adj.棕色（的），褐色（的）</li>
+<li>t__________art.指已提到或易领会到的人或者事务</li>
+<li>n__________ adv. 现在;当前</li>
+<li>s__________v.理解；明白</li>
+<li>c__________ modal v. 能会</li>
+<li>s__________v.说；讲</li>
+<li>m__________pron. 我的</li>
+<li>S (尤指服装的尺码)小号的</li>
+<li>M(尤指服装的尺码)中号的</li>
+<li>L (指服装的尺码)大号的</li>
+<li>U__________ 不明飞行物</li>
+<li>C__________中国中央电视台<h2 id="unit-1">Unit 1</h2>
+</li>
+</ol>
+<hr>
+<ol start="64">
+<li>n__________ n.名字；名称</li>
+<li>n__________adj. 令人愉快的；宜人的；</li>
+<li>t__________ 常用于原形动词之前，表示改动词为不定式</li>
+<li>m__________遇见；相逢</li>
+<li>t__________ adv.也；又；太</li>
+<li>y__________pron.你的；你们的；</li>
+<li>M__________（用于女子的姓或姓名之前，不指明婚否）女士</li>
+<li>h__________ pron. 他的</li>
+<li>y__________interj.是的；可以</li>
+<li>s__________ pron.她</li>
+<li>h__________pron.他</li>
+<li>n__________ adj.&amp;adv. 不；没有；不是</li>
+<li>n__________adv.不，没有</li>
+<li>z__________ num.零</li>
+<li>o__________ num. 一</li>
+<li>t__________num.二</li>
+<li>t__________num.三</li>
+<li>f__________num. 四</li>
+<li>f_______num. 五</li>
+<li>s__________num.六</li>
+<li>s__________num. 七</li>
+<li>e__________num.八</li>
+<li>n__________ num.九</li>
+<li>t__________n.电话；电话机</li>
+<li>n__________n.号码；数字</li>
+<li>p__________n.电话；电话机 </li>
+<li>t__________ 电话号码</li>
+<li>f__________adj.第一</li>
+<li>f__________ 名字</li>
+<li>l__________adj.最后的；末尾的</li>
+<li>l__________ 姓</li>
+<li>f__________n.朋友</li>
+<li>C__________中国</li>
+<li>m__________adj.中国的n.中国</li>
+<li>s__________n.学校</li>
+<li>m__________中学，初中<h2 id="unit-2">Unit 2</h2>
+</li>
+</ol>
+<hr>
+<ol start="100">
+<li>s__________ n. 姐；妹</li>
+<li>m__________ n. 母亲；妈妈</li>
+<li>f__________n. 父亲；爸爸</li>
+<li>P__________n. 父(母)亲</li>
+<li>b__________n. 兄；弟</li>
+<li>g__________n.(外)祖母；奶奶；姥姥</li>
+<li>g__________n. （外）祖父；爷爷；外公； 姥爷</li>
+<li>g__________n. 祖父（母）；外祖父（母）</li>
+<li>f__________n.家庭；家</li>
+<li>t__________pron. 那些</li>
+<li>w__________pron. 谁；什么人</li>
+<li>o__________ iterj.哦；啊</li>
+<li>t__________ pron. 这些</li>
+<li>t__________pron.他(她，它)们</li>
+<li>w__________interj.嗯，好吧</li>
+<li>h__________v. 经历，经受</li>
+<li>d__________n.一天；一日；白天</li>
+<li>H__________(表示祝愿)过得愉快！b__________ interj.(goodbye)再见</li>
+<li>S__________ n. 儿子</li>
+<li>c__________n.堂兄(弟，姊，妹);表兄(弟，姊，妹)</li>
+<li>g__________ n. （外）祖父；爷爷；外公；姥爷</li>
+<li>m <strong><strong>_</strong></strong> n.妈妈</li>
+<li>a <strong><strong>__</strong></strong> n.姑母，姨母，伯母，舅母</li>
+<li>d <strong><strong>__</strong></strong> n.爸爸</li>
+<li>u__________n.舅母；叔父；伯父；姑父；姨父</li>
+<li>d__________n.女儿</li>
+<li>h__________adv.(用以介绍某人或某物)这就是；在这里</li>
+<li>p__________n.照片</li>
+<li>o__________ prep.属于(某人或某物);关于(某人或某物)</li>
+<li>n__________ adj.&amp;n. 下一个（的）;接下来(的 )</li>
+<li>p__________n.照片；图画</li>
+<li>g__________ n.女孩</li>
+<li>d__________n.狗<h2 id="unit-3">Unit 3</h2>
+</li>
+</ol>
+<hr>
+<ol start="133">
+<li>p__________n.铅笔</li>
+<li>b__________ n.</li>
+<li>e__________ n.橡皮</li>
+<li>b__________n.箱；盒</li>
+<li>p__________ n.铅笔盒；文具盒</li>
+<li>s__________n.书包</li>
+<li>d__________n.词典，字典</li>
+<li>h__________ pron. 他的</li>
+<li>m__________pron. 我的</li>
+<li>h__________pron. 她的</li>
+<li>e__________v.原谅；宽恕</li>
+<li>m <strong><strong>__</strong></strong>pron(I的宾格)我</li>
+<li>e__________ 劳驾；请原谅</li>
+<li>t__________v.感谢；谢谢</li>
+<li>t__________n.老师；教师</li>
+<li>a__________ prep.关于adv.大约</li>
+<li>W__________? （询问消息或提建议）……怎么样？…….好吗？</li>
+<li>y__________pron. 你的；你们的；</li>
+<li>f__________ prep.为了；给；对</li>
+<li>t__________ 为…….而感谢你(们)</li>
+<li>h__________v.&amp;n. 帮助；援助</li>
+<li>w__________adj.受欢迎的</li>
+<li>Y___________别客气</li>
+<li>b_________n.棒球</li>
+<li>w__________n.表；手表</li>
+<li>c__________n.计算机；电脑</li>
+<li>g__________ n.游戏；运动；比赛</li>
+<li>c__________n.卡片</li>
+<li>I__________学生卡；身份证</li>
+<li>n__________n.笔记本</li>
+<li>r__________n.戒指</li>
+<li>b__________n.袋；包</li>
+<li>i__________prep.在……里面</li>
+<li>l__________n.图书馆</li>
+<li>a__________v.请求；要求；询问</li>
+<li>a__________请求；恳求(给予)</li>
+<li>f__________v.(过去式，过去分词found)找到；发现</li>
+<li>s__________adj.一些；某些 pron.有些；有的</li>
+<li>c__________n.教室</li>
+<li>e__________v.给……发电子邮件；用电邮发送；n.电子邮件</li>
+<li>a__________prep.（提供电话号码等时使用）按照根据；在（某处、某时间或时刻）</li>
+<li>c__________v.（给     …）打电话</li>
+<li>l__________v.(lose的过去式)遗失；丢失</li>
+<li>m__________ modal v.必须</li>
+<li>s__________n.一套；一副；一组</li>
+<li>a <strong><strong>__</strong></strong> 一套；一副；一组<h2 id="unit-4">Unit 4</h2>
+</li>
+</ol>
+<hr>
+<ol start="179">
+<li>w__________ adv.在哪里；到哪里</li>
+<li>t__________n. 桌子</li>
+<li>b__________ n.床</li>
+<li>b__________n. 书架；书柜</li>
+<li>s__________ n.沙发</li>
+<li>c__________ n.椅子</li>
+<li>o__________ prep. 在…….上</li>
+<li>u__________prep. 在…… 下</li>
+<li>c__________v.来；来到</li>
+<li>c__________ 快点儿</li>
+<li>d__________n 书桌</li>
+<li>t__________ v.认为；想；思考</li>
+<li>r__________ n.房间</li>
+<li>t__________ pron.他(她，它)们的</li>
+<li>h__________n.帽子</li>
+<li>h__________n.头</li>
+<li>y__________ interj. 是的；对</li>
+<li>k__________ v.知道；了解</li>
+<li>r__________n.收音机；无线电广播</li>
+<li>c__________n.时钟</li>
+<li>t__________n.磁带¦；录音带；录像带</li>
+<li>p__________n.播放机</li>
+<li>t__________磁带播放机</li>
+<li>m__________n.模型</li>
+<li>p__________n.飞机</li>
+<li>m__________飞机模型</li>
+<li>t__________adj. 整洁的；井井有条的</li>
+<li>b__________conj.但是</li>
+<li>o__________ pron.我们的</li>
+<li>e__________adv. 处处；到处；各个地方</li>
+<li>a__________ adv.总是<h2 id="unit-5">Unit 5</h2>
+</li>
+</ol>
+<hr>
+<ol start="210">
+<li>d__________(第三人称单数形式does) aux.&amp;v.用于构否定句和疑问句;做；干</li>
+<li>h__________v.有</li>
+<li>t__________n.网球</li>
+<li>b__________n.球</li>
+<li>p__________n.乒乓球</li>
+<li>b__________n.球棒；球拍</li>
+<li>s__________n.（英式）足球</li>
+<li>v__________n.排球</li>
+<li>b__________n.篮球</li>
+<li>h__________interj.嘿；喂</li>
+<li>l__________v.允许；让</li>
+<li>u__________pron.（we的宾格）我们</li>
+<li>l__________ 让我们(一起)</li>
+<li>g__________v.去；走</li>
+<li>w__________ pron.我们</li>
+<li>l__________ adj.迟到</li>
+<li>h__________(have的第三人称单数形式)有</li>
+<li>g__________v.去取(或带来);得到</li>
+<li>g__________adj.美妙的；伟大的</li>
+<li>p__________v.参加（比赛或运动）;玩耍</li>
+<li>s__________v.听起来好像</li>
+<li>i__________adj.有趣的</li>
+<li>b__________adj.没趣的；令人厌倦</li>
+<li>f__________ adj.有趣的；使人快乐的n.乐趣；快乐</li>
+<li>d__________adj.困难的</li>
+<li>r__________adj.轻松的；令人放松的</li>
+<li>w__________v.注视；观看</li>
+<li>T__________ (= television)电视；电视机</li>
+<li>s__________adj.相同的</li>
+<li>l__________v.&amp;n.爱；喜欢</li>
+<li>w__________ prep.和……在一起；带有；使用</li>
+<li>s__________n.体育运动</li>
+<li>t__________ pron.（they的宾格）(她，它)们</li>
+<li>o__________adv.只；仅</li>
+<li>l__________v.喜欢；喜爱</li>
+<li>e__________adj.容易的；不费力的</li>
+<li>a__________prep.&amp;conj.在……以后</li>
+<li>c__________ n.班级；课</li>
+<li>c__________n.同班同学<h2 id="unit-6">Unit 6</h2>
+</li>
+</ol>
+<hr>
+<ol start="249">
+<li>b__________ n.香蕉</li>
+<li>h__________n.汉堡</li>
+<li>t__________n.西红柿</li>
+<li>i__________n.冰淇淋</li>
+<li>s__________n.沙拉</li>
+<li>s__________n.草莓</li>
+<li>p__________n.梨</li>
+<li>m__________n.牛奶</li>
+<li>b__________n.面包</li>
+<li>b__________n.生日</li>
+<li>d__________n.(中午或晚上吃的)正餐</li>
+<li>w__________n.周；星期</li>
+<li>t__________思考；思索</li>
+<li>f__________n.食物</li>
+<li>s__________adv.当然；肯定；一定</li>
+<li>H__________（提出建议怎么样？</li>
+<li>b__________n.汉堡包</li>
+<li>v__________n.蔬菜</li>
+<li>f__________n.水果</li>
+<li>r__________adj.正确的；适当的</li>
+<li>a__________n.苹果</li>
+<li>t__________adv.那么</li>
+<li>e__________n.蛋、鸡蛋</li>
+<li>c__________n.胡萝卜</li>
+<li>r__________n.大米；米饭</li>
+<li>c__________n.鸡肉</li>
+<li>s__________ conj.(引出评论或问题)那么</li>
+<li>b__________n.早餐；早饭</li>
+<li>l__________n.午餐</li>
+<li>s__________n.明星；星星</li>
+<li>e__________v.吃</li>
+<li>w__________adv.好地；令人满意地</li>
+<li>h__________n.习惯</li>
+<li>h__________adj.健康的</li>
+<li>r__________adv.真正地</li>
+<li>q__________n.问题</li>
+<li>w__________v.需要；想要</li>
+<li>b__________v.变成</li>
+<li>f__________adj.肥胖的<h2 id="unit-7">unit 7</h2>
+</li>
+</ol>
+<hr>
+<ol start="288">
+<li>m__________pron&amp;adv.许多；大量；多少</li>
+<li>H__________?(购物时)……多少钱？</li>
+<li>s__________n.短袜</li>
+<li>T__________n.T恤衫</li>
+<li>s__________n.(pl.)短裤</li>
+<li>s__________n.毛衣</li>
+<li>t__________n.(pl)裤子</li>
+<li>s__________n.鞋</li>
+<li>s__________n.裙子</li>
+<li>d__________n.元（美国、加拿大等国的货币单位）</li>
+<li>b__________adj.大的，大号的；</li>
+<li>s__________adj.小的；小号的；</li>
+<li>s__________adj.短的；矮的；</li>
+<li>l__________adj.长的</li>
+<li>w__________(pl.women)女子</li>
+<li>C__________我能 帮您忙吗？</li>
+<li>n__________v.需要</li>
+<li>l__________v.看；看上</li>
+<li>p__________n.一双、一对</li>
+<li>t__________v买下；拿；取</li>
+<li>H__________给你</li>
+<li>t__________num.十</li>
+<li>e__________num.十一</li>
+<li>t__________num.十二</li>
+<li>t__________num.十三</li>
+<li>f__________num.十五</li>
+<li>e__________num.十八</li>
+<li>t__________num.二十</li>
+<li>t__________num.三十</li>
+<li>M__________(用于男子的姓氏或姓名前)先生</li>
+<li>c__________n.(pl.)衣服；服装</li>
+<li>s__________n.商店</li>
+<li>b__________v.购买；买</li>
+<li>s__________n.特价销售；出售</li>
+<li>s__________v.出售；销售；卖</li>
+<li>a__________adj.所有的；全部的</li>
+<li>v__________adv.很；非常</li>
+<li>p__________n.价格</li>
+<li>b__________n.男孩</li>
+<li>a__________ 一双<h2 id="unit-8">Unit 8</h2>
+</li>
+</ol>
+<hr>
+<ol start="327">
+<li>w__________adv.(疑问副词)什么时候</li>
+<li>m__________n.月；月份</li>
+<li>J__________n.一月</li>
+<li>F__________n.二月</li>
+<li>M__________n.三月</li>
+<li>A__________n.四月</li>
+<li>M__________n.五月</li>
+<li>J__________n.六月</li>
+<li>J__________n.七月</li>
+<li>A__________n.八月</li>
+<li>S__________n.九月</li>
+<li>O__________n.十月</li>
+<li>N__________n.十一月</li>
+<li>D__________n.十二月</li>
+<li>h__________adj.愉快的；高兴的</li>
+<li>H__________生日快乐！</li>
+<li>o__________adj.年老的；旧的</li>
+<li>H__________ 多大年纪？几岁？</li>
+<li>p__________n.聚会</li>
+<li>S__________再见</li>
+<li>f__________num.第一</li>
+<li>s__________num.第二</li>
+<li>t__________num.第三</li>
+<li>f__________num.第五</li>
+<li>e__________num.第八</li>
+<li>n__________num.第九</li>
+<li>t__________num.第十二</li>
+<li>t__________num.第二十</li>
+<li>t__________n.测验；检查</li>
+<li>t__________n.旅游，旅行</li>
+<li>a__________n.艺术；美术</li>
+<li>f__________n.(音乐、戏剧等)会演节；</li>
+<li>d__________adj.亲爱的</li>
+<li>s__________n.学生</li>
+<li>t__________n.东西；事情</li>
+<li>t__________n.学期</li>
+<li>b__________adj.忙碌的；无暇的</li>
+<li>t__________n.时间</li>
+<li>H__________(表示祝愿)得愉快!</li>
+<li>t__________adv.（在）那里<h2 id="unit-9">Unit 9</h2>
+</li>
+</ol>
+<hr>
+<ol start="367">
+<li>f__________adj.&amp;n.(=favourite)特别喜爱的(人或事物)</li>
+<li>s__________n.学科；科目</li>
+<li>s__________n.科学</li>
+<li>P.E.n.(=<strong><strong>__</strong></strong>)体育</li>
+<li>m <strong><strong>__</strong></strong>n.音乐；乐曲</li>
+<li>m__________n.(maths)数学</li>
+<li>C__________n.语文；汉语adj.汉语的，中国的</li>
+<li>g__________n.地理</li>
+<li>h__________n.历史</li>
+<li>w__________adv.为什么</li>
+<li>b__________conj.因为</li>
+<li>M__________n.星期一</li>
+<li>F__________n.星期五</li>
+<li>S__________n.星期六</li>
+<li>f__________无疑；肯定</li>
+<li>f__________adj.空闲的</li>
+<li>c__________adj.妙极的；酷的</li>
+<li>T__________n.星期二</li>
+<li>W__________n.星期三</li>
+<li>T__________n.星期四</li>
+<li>S__________n.星期日</li>
+<li>A.<strong><strong>__</strong></strong>(=a.m.)上午</li>
+<li>P.<strong><strong>__</strong></strong>(=p.m.)下午；午后</li>
+<li>u__________adj.有用的；有益的</li>
+<li>f__________prep.(表示开始的时间)从…开始</li>
+<li>f__________…t…从…到</li>
+<li>M__________（用于女子的姓氏或姓名前）太太；</li>
+<li>f__________v.完成；做好</li>
+<li>l__________n.课；一节课</li>
+<li>h__________n.小时                  <h1 id="-">关于应对中考提示于思考：</h1>
+---$/color{red}{
+其实中考试题并不难。课程标准和中考试题，每份试题的难度分布是基础题和基本应用题占70%左右，难题不超过30%。只要能让孩子先在理解的基础上记住各科的知识点，教材上基础过关作业、基本应用作业题能独立完成，考上高中基本上就没问题了。如果后面的综合应用作业能独立完成，上个市区重点就有希望了。如果拓展类作业能独立完成，那你孩子就是妥妥的学霸。
+如果能理性客观地分析自己孩子的学习水平现状，帮助孩子定好位：最容易达到的学习目标是普通高中、市区重点还是省重点。定好位以后，就能帮孩子制定每天的适当的学习计划，并督促鼓励孩子安计划走，实现中考目标就不难既不会重复给孩子加码，也不会让孩子被不适当的作业所捆绑。}$</li>
+</ol>
+
+          	</article>
+        </div>
+		</div>
+  </body>
+</html>
+<script type="text/javascript" src="toc/js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="toc/js/jquery.ztree.all-3.5.min.js"></script>
+<script type="text/javascript" src="toc/js/ztree_toc.js"></script>
+<script type="text/javascript" src="toc_conf.js"></script>
+
+<SCRIPT type="text/javascript" >
+<!--
+$(document).ready(function(){
+    var css_conf = eval(markdown_panel_style);
+    $('#readme').css(css_conf)
+    
+    var conf = eval(jquery_ztree_toc_opts);
+		$('#tree').ztree_toc(conf);
+});
+//-->
+</SCRIPT>
