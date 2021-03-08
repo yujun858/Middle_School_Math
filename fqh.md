@@ -572,10 +572,29 @@ $$△ABC试等边三角形$$
 已知关于$x$的方程$a(x+m)^2+b=0(a,b,m均为常数，且a≠0)的两个解是x_1=3和x_2=7$,则方程$a(3x-m+1)^2+b=0的解？  
 解：  
 由题意得：  
-$$a(x+m)^2+b=0     （1)解得x=±\sqrt{\frac{-b}{a}}-m$$
-$$a(3x+m-1)^2+b=0   (2)解得:x =\frac{1}{3}(±\sqrt{\frac{-b}{a}}-m)+\frac{1}{3}$$
-$$又∵方程（1）有解x_1=3,x_2=7 代入方程(2)$$
-$$ 解得方程（2）的解 x_1=\frac{4}{3} x_2=\frac{8}{3} $$
+$$a(x+m)^2+b=0     （1)解得x=±\sqrt{\frac{-b}{a}}-m$$  
+$$a(3x+m-1)^2+b=0   (2)解得:x =\frac{1}{3}(±\sqrt{\frac{-b}{a}}-m)+\frac{1}{3}$$  
+$$又∵方程（1）有解x_1=3,x_2=7 代入方程(2)$$  
+$$ 解得方程（2）的解 x_1=\frac{4}{3} x_2=\frac{8}{3} $$  
+
+## 名师面对面p6
+"Can I see my baby?" asked the happy new mother. When the baby was in her arms, she couldn't believe her eyes.
+The baby was born without ***ear***.  
+The son could hear but of course he didn't look beautiful. Every time the woman looked at her son, she always ***worried***
+about his future. And one day, he said to his mother, tears in his eyes, "A big boy called me a freak(怪人)"  
+The boy's father asked the family doctor. "Is ther ***anything*** that we cando to help him?"  
+"Yes,"the doctor said."we tried to find a person who would be helpful to the boy."
+One day,his father said to the son,"You are going to the ***hospital***",son. Mother and I find someone who will help you, But
+it's a secret."  
+Everything was successful. He ***turn*** out to be a beautiful boy and went to a college.  
+"***So*** I must know,"he said to his father,"Who gave so much to me? I cound ***sometimes*** do enough for him."  
+"I can't tell you,my son.But you are ***right***. We must remember her. That's the person you should be thankful in your life," said the father.
+Years passed. The boy finally know the truth when his mother died."***Mother*** never cuts her hair. But ***somebody*** in the family thinks she is less beautiful.
+She is the most beautiful woman in the world!"  
+Real beauty doesn't depend on looks,but depends ***on*** the heart.Real ***love*** doesn't depends on ***what*** you know and then do, but depends on what you do but is not ***know***.
+
+
+
 
 
 
