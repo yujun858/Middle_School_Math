@@ -551,13 +551,13 @@ $$=a(x-x_1)(x-x_2)$$
 $$∴ax^2+bx+c=a(x-x_1)(x-x_2)$$
 
 ## 教材46.4
-已知：$x_1,x_2$是方程$ax^2+bx+c=0(a>0,b^2-4ac≥0)的两个根。求证：|x_1-x_2|=\frac{\sqrt{b^2-4ac}{a}}.
+已知：$x_1,x_2$是方程$ax^2+bx+c=0(a>0,b^2-4ac≥0)的两个根。求证：$|x_1-x_2|=\frac{\sqrt{b^2-4ac}{a}}$.
   
 证明：
   
 $$ ax^2+bx+c=0(a>0,b^2-4ac≥0)的两个根为$$
 $$ \frac{-b±\sqrt{b^2-4ac}}{2a}$$
-$$∴ |x_1-x_2|=|\frac{-b+\sqrt{b^2-4ac}+b+\sqrt{b^2-4ac}}{2a}|=\frac{\sqrt{b^2-4ac}{a}}$$
+$$∴ |x_1-x_2|=|\frac{-b+\sqrt{b^2-4ac}+b+\sqrt{b^2-4ac}}{2a}|=\frac{\sqrt{b^2-4ac}}{a}$$
 $\color{red}{根据公式求出答案，基础题型}  
 
 
