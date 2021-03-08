@@ -542,9 +542,9 @@ The alcohol felt cool on the bites and a little girl's pride was saved by the "s
 $$∵ x_1,x_2是一元二次方程ax^2+bx+c=0的两个根$$
 $$∴x_1+x_2=-\frac{b}{a},x_1 \times x_2 =\frac{c}{a}$$
 $$∴ \frac{b}{a}=-(x_1+x_2),\frac{c}{a}=x_1 \times x_2$$
-$\color{red}{证明过程：这个题目有一些迷惑地方  
-①感觉不用证明，题目化不开  
-②一元二次方程两个解之间关系，有些时候没必要求出具体解，只需要知道两个解得乘积和就可以}$ 
+$$\color{red}{证明过程：这个题目有一些迷惑地方}$$  
+$$\color{red}{①感觉不用证明，题目化不开}$$  
+$$\color{red}{②一元二次方程两个解之间关系，有些时候没必要求出具体解，只需要知道两个解得乘积和就可以}$$ 
 $$ ∵ax^2+bx+c =a(x^2+\frac{b}{a}x+\frac{c}{a})=a[x^2-(x_1+x_2)x+ x_1x_2]$$
 $$=a(x^2-x_1x-x_2x+x_1x_2)=a[(x^2-x_1x)-(x_2x-x_1x_2)]=a[x(x-x_1)-x_2(x-x_1)]$$
 $$=a(x-x_1)(x-x_2)$$
