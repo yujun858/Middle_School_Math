@@ -610,8 +610,8 @@ Then my mother would take it out and she would be worried when she saw that I wa
 The only trouble was I didn't know the thermometer would be so hot.  
 As son as I put into my mouth. it burnt my tongue！  
 I spat the thermometer out.  
-It fell on the floor but it didn't break. 
-4.  
+It fell on the floor but it didn't break.  
+4.   
 I will havt to think up a better way to get my mother and father back together.  
 
 
