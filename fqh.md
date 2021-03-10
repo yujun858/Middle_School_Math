@@ -593,6 +593,31 @@ She is the most beautiful woman in the world!"
 Real beauty doesn't depend on looks,but depends ***on*** the heart.Real ***love*** doesn't depends on ***what*** you know and then do, but depends on what you do but is not ***know***.
 
 
+##  全品大讲堂p28 阅读理解
+1.  
+I have tried many ways to be ill.   
+I didn't wear a sweater when I should, and two days ago I walked in the rain without my shoes.  
+But so far nothing has happened.  
+Debbie once told me about a boy in her calss who liked being away from school.  
+He would rub the end of the therometer until it went up to 39℃。  
+Then he'd put in his month and his mother would think he was really ill.  
+2.  
+This morning I tried doing that, but it never went above 35℃, and I had rubbed it for ten minutes.  
+So I held the thermometer next to the light on my desk and it went up to 40 ℃。  
+I thought I could put it in my mouth and walk downstarirs like that.  
+Then my mother would take it out and she would be worried when she saw that I was rather ill.  
+3. 
+The only trouble was I didn't know the thermometer would be so hot.  
+As son as I put into my mouth. it burnt my tongue！  
+I spat the thermometer out.  
+It fell on the floor but it didn't break. 
+4.  
+I will havt to think up a better way to get my mother and father back together.  
+
+
+
+
+
 
 
 
