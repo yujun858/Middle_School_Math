@@ -576,6 +576,19 @@ $$a(3x+m-1)^2+b=0   ②解得:x =\frac{1}{3}(±\sqrt{\frac{-b}{a}}-m)+\frac{1}{3
 $$又∵方程①有解x_1=3,x_2=7 代入方程(2)$$
 $$ 解得方程②的解 x_1=\frac{4}{3} x_2=\frac{8}{3} $$
 
+## 全屏13.16
+$$ x^2+ax=b^2$$
+$$ x^2+ax+\frac{a^2}{4}=b^2+\frac{a^2}{4}$$
+$$ (x+\frac{a}{2})^2 = b^2 + \frac{a^2}{4}$$
+$$ x = ±\sqrt{b^2+\frac{a^2}{4}} -\frac{a}{2}$$
+所以x 的解为 AB-BD 为AD
+## 全品 13.15
+$$(x-1)(x+2)=p^2$$
+$$ x^2+x -2 =p^2$$
+$$ x^2+x-2-p^2=0 $$
+$$ △=1-4(-2-p^2)>0 所以有两个根$$
+$$ 因为两个根的积为-2-p^2小于0所以有一个正根一个负根$$
+
 ## 名师面对面p6
 "Can I see my baby?" asked the happy new mother. When the baby was in her arms, she couldn't believe her eyes.
 The baby was born without ***ear***.  
@@ -630,4 +643,22 @@ I will havt to think up a better way to get my mother and father back together.
     4. 斜体 $\mathit{x}$
     5. 大小 $\tiny x$ $\scriptsize x $ $\small x $ $\normalsize x$ $\large x$ $\Large x$ $\huge x$ $\Huge x$
     6. 颜色支持 $\color{Red}{红色}$ $\color{blue}{蓝色}$ 
+# 默写 p10 d2
+Hi, Tom, I am making plans to work in the old people's home this summer.  
+Really? I did that last summer.
+Oh, what did they ask to help out with?
+Um ... ,things like reading the newspaper to the old people,or just talked to them. They told me the past stories and how things used to be.
+That sounds interesting.
+Yeah, a lot of old people are lonely. We should listen to them and care for them.
+You are right, I mean, we're going to be old one day, too.
+
+
+
+Hi Tom, I am making some plans to work in an old people' home this summer.
+Really? I did that last summer.
+Oh, what did they ask to help out with?
+Um....,things like reading the newspaper to the old people, or just talked to them. They told me the past stories and how things used to be.
+That sounds interesting.
+Yeah, a lot of old people are lonely, We should listen to them and care for them.
+You'are right, I mean, We are going to be old one day, too.
 
