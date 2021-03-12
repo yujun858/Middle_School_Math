@@ -61,4 +61,48 @@ Post.objects.filter(id=26).update(title='又更新了'）
 post.save()持久化
 ```
 # 多表查询
+# 爬虫
+https://www.bilibili.com/robots.txt
+```
+User-agent: **
+Disallow: /include/
+Disallow: /mylist/
+Disallow: /member/
+Disallow: /images/
+Disallow: /ass/
+Disallow: /getapi
+Disallow: /search
+Disallow: /account
+Disallow: /badlist.html
+Disallow: /m/          
+```
+## 小爬虫
+```
+from urllib.request import urlopen
+url ='http://www.baidu.com'
+resp = urlopen(url)
+print(resp.read().decode('utf8')) #得到内容 字节到字符
+with open('mybaidu.html',mode='w') as f:
+    f.rwite(resp.read().decode('utf8'))
+print('over.......')
+```
+## 浏览器抓包工具
+F12
+http:协议：
+## 爬虫讲解
+- requests模块:
+    ```
+    import requests
+    query = input('输入一个你喜欢的明星')
+    url=f'https://www.sogou.com/web?query={query}'
+    headers={
+    "User-Agent"："Mozilla/5.0.........."
+    }
+    resp = requests.get(url,headers=headers)
+    print(resp.text)
+    ```
+- headers ={ 'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36i'}
+- 使用 requests获得百度翻译结果
+    ```
 
+    ```

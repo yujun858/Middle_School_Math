@@ -633,7 +633,7 @@ As son as I put into my mouth. it burnt my tongue！
 I spat the thermometer out.  
 It fell on the floor but it didn't break.  
 4.   
-I will havt to think up a better way to get my mother and father back together.  
+I will have to think up a better way to get my mother and father back together.  
 
 
 
